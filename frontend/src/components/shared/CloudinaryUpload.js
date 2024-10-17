@@ -1,12 +1,12 @@
 import {openUploadWidget} from "../../utils/CloudinaryService";
-import {cloudinary_upload_present} from "../../config";
+//import {cloudinary_upload_present} from "../../config";
 
 const  CloudinaryUpload = ({setName, setUrl}) => {
     const uploadImageWidget = () => {
         let myUploadWidget = openUploadWidget(
             {
                 cloudName: "dqpifrgev",  //my cloud name
-                uploadPreset: cloudinary_upload_present, // upload present name
+                uploadPreset: 'dj3phdlo', // upload present name
                 sources: ["local"],  // only from local system
             },
             function (error, result) {

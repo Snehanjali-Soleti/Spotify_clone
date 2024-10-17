@@ -1,0 +1,1 @@
+export const backendURL = "http://localhost:7000" // backendurl

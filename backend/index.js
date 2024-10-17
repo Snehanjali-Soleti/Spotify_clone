@@ -59,9 +59,9 @@ passport.use(new JwtStrategy(opts, function(jwt_payload, done) {
 
 
 
-app.get('/',(req,res)=>{
-    res.send("hi");
-})
+// app.get('/',(req,res)=>{
+//     res.send("hi");
+// })
 
 app.use("/auth", authRoutes); // it is a middleare
 app.use('/song',songRoutes);
